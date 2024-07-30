@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32A65A62C58291600552F5B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65A52C58291600552F5B /* main.swift */; };
+		A32A65AB2C5829FD00552F5B /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65AA2C5829FD00552F5B /* MovieService.swift */; };
+		A32A65AD2C582A1500552F5B /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65AC2C582A1500552F5B /* MovieManager.swift */; };
+		A32A65AF2C582A3000552F5B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65AE2C582A3000552F5B /* Movie.swift */; };
+		A32A65B12C582A4800552F5B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65B02C582A4800552F5B /* Config.swift */; };
 		A345C7512C4BB4FB006B5811 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7502C4BB4FB006B5811 /* main.swift */; };
 		A345C7692C4BB56E006B5811 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7682C4BB56E006B5811 /* main.swift */; };
 		A345C7742C4BB5B9006B5811 /* ScrollAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7732C4BB5B9006B5811 /* ScrollAppApp.swift */; };
@@ -32,6 +37,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A32A65A12C58291600552F5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A345C74B2C4BB4FB006B5811 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +76,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A32A65A32C58291600552F5B /* PatternMovieApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PatternMovieApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32A65A52C58291600552F5B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A32A65AA2C5829FD00552F5B /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		A32A65AC2C582A1500552F5B /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		A32A65AE2C582A3000552F5B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A32A65B02C582A4800552F5B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A345C74D2C4BB4FB006B5811 /* Bank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank; sourceTree = BUILT_PRODUCTS_DIR; };
 		A345C7502C4BB4FB006B5811 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A345C7662C4BB56E006B5811 /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +112,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A32A65A02C58291600552F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A345C74A2C4BB4FB006B5811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +157,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32A65A42C58291600552F5B /* PatternMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				A32A65A52C58291600552F5B /* main.swift */,
+				A32A65AA2C5829FD00552F5B /* MovieService.swift */,
+				A32A65AC2C582A1500552F5B /* MovieManager.swift */,
+				A32A65AE2C582A3000552F5B /* Movie.swift */,
+				A32A65B02C582A4800552F5B /* Config.swift */,
+			);
+			path = PatternMovieApp;
+			sourceTree = "<group>";
+		};
 		A345C7442C4BB4FB006B5811 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +177,7 @@
 				A345C7722C4BB5B9006B5811 /* ScrollApp */,
 				A345C78C2C4BB709006B5811 /* Calendar */,
 				A345C7A42C4BB8CC006B5811 /* HashCollections */,
+				A32A65A42C58291600552F5B /* PatternMovieApp */,
 				A345C74E2C4BB4FB006B5811 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +190,7 @@
 				A345C7712C4BB5B9006B5811 /* ScrollApp.app */,
 				A345C78B2C4BB709006B5811 /* Calendar.app */,
 				A345C7A32C4BB8CC006B5811 /* HashCollections */,
+				A32A65A32C58291600552F5B /* PatternMovieApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +271,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A32A65A22C58291600552F5B /* PatternMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32A65A92C58291600552F5B /* Build configuration list for PBXNativeTarget "PatternMovieApp" */;
+			buildPhases = (
+				A32A659F2C58291600552F5B /* Sources */,
+				A32A65A02C58291600552F5B /* Frameworks */,
+				A32A65A12C58291600552F5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatternMovieApp;
+			productName = PatternMovieApp;
+			productReference = A32A65A32C58291600552F5B /* PatternMovieApp */;
+			productType = "com.apple.product-type.tool";
+		};
 		A345C74C2C4BB4FB006B5811 /* Bank */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A345C7542C4BB4FB006B5811 /* Build configuration list for PBXNativeTarget "Bank" */;
@@ -325,6 +383,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					A32A65A22C58291600552F5B = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					A345C74C2C4BB4FB006B5811 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -360,6 +421,7 @@
 				A345C7702C4BB5B9006B5811 /* ScrollApp */,
 				A345C78A2C4BB709006B5811 /* Calendar */,
 				A345C7A22C4BB8CC006B5811 /* HashCollections */,
+				A32A65A22C58291600552F5B /* PatternMovieApp */,
 			);
 		};
 /* End PBXProject section */
@@ -386,6 +448,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A32A659F2C58291600552F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32A65AB2C5829FD00552F5B /* MovieService.swift in Sources */,
+				A32A65AD2C582A1500552F5B /* MovieManager.swift in Sources */,
+				A32A65B12C582A4800552F5B /* Config.swift in Sources */,
+				A32A65AF2C582A3000552F5B /* Movie.swift in Sources */,
+				A32A65A62C58291600552F5B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A345C7492C4BB4FB006B5811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,6 +516,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A32A65A72C58291600552F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR465RHT3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A32A65A82C58291600552F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR465RHT3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A345C7522C4BB4FB006B5811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -750,6 +846,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A32A65A92C58291600552F5B /* Build configuration list for PBXNativeTarget "PatternMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32A65A72C58291600552F5B /* Debug */,
+				A32A65A82C58291600552F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A345C7482C4BB4FB006B5811 /* Build configuration list for PBXProject "Bank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
