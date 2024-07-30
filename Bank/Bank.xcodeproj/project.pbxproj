@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32A65A62C58291600552F5B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65A52C58291600552F5B /* main.swift */; };
+		A32A65AB2C5829FD00552F5B /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65AA2C5829FD00552F5B /* MovieService.swift */; };
+		A32A65AD2C582A1500552F5B /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65AC2C582A1500552F5B /* MovieManager.swift */; };
+		A32A65AF2C582A3000552F5B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65AE2C582A3000552F5B /* Movie.swift */; };
+		A32A65B12C582A4800552F5B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A65B02C582A4800552F5B /* Config.swift */; };
 		A345C7512C4BB4FB006B5811 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7502C4BB4FB006B5811 /* main.swift */; };
 		A345C7692C4BB56E006B5811 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7682C4BB56E006B5811 /* main.swift */; };
 		A345C7742C4BB5B9006B5811 /* ScrollAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7732C4BB5B9006B5811 /* ScrollAppApp.swift */; };
@@ -24,9 +29,23 @@
 		A345C79C2C4BB737006B5811 /* FormattedDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7992C4BB736006B5811 /* FormattedDatesView.swift */; };
 		A345C79D2C4BB737006B5811 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C79A2C4BB736006B5811 /* PickerView.swift */; };
 		A345C79E2C4BB737006B5811 /* LanguagePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C79B2C4BB736006B5811 /* LanguagePick.swift */; };
+		A345C7A62C4BB8CC006B5811 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7A52C4BB8CC006B5811 /* main.swift */; };
+		A345C7AB2C4BB9C7006B5811 /* StringHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7AA2C4BB9C7006B5811 /* StringHash.swift */; };
+		A345C7AD2C4BBAB1006B5811 /* СustomHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7AC2C4BBAB1006B5811 /* СustomHash.swift */; };
+		A345C7AF2C4BC439006B5811 /* SetFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7AE2C4BC439006B5811 /* SetFunction.swift */; };
+		A345C7B12C4BDB19006B5811 /* DictionaryFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345C7B02C4BDB19006B5811 /* DictionaryFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A32A65A12C58291600552F5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A345C74B2C4BB4FB006B5811 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,9 +64,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A345C7A12C4BB8CC006B5811 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A32A65A32C58291600552F5B /* PatternMovieApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PatternMovieApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32A65A52C58291600552F5B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A32A65AA2C5829FD00552F5B /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		A32A65AC2C582A1500552F5B /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		A32A65AE2C582A3000552F5B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A32A65B02C582A4800552F5B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A345C74D2C4BB4FB006B5811 /* Bank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank; sourceTree = BUILT_PRODUCTS_DIR; };
 		A345C7502C4BB4FB006B5811 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A345C7662C4BB56E006B5811 /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,9 +103,22 @@
 		A345C7992C4BB736006B5811 /* FormattedDatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormattedDatesView.swift; sourceTree = "<group>"; };
 		A345C79A2C4BB736006B5811 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		A345C79B2C4BB736006B5811 /* LanguagePick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagePick.swift; sourceTree = "<group>"; };
+		A345C7A32C4BB8CC006B5811 /* HashCollections */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashCollections; sourceTree = BUILT_PRODUCTS_DIR; };
+		A345C7A52C4BB8CC006B5811 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A345C7AA2C4BB9C7006B5811 /* StringHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHash.swift; sourceTree = "<group>"; };
+		A345C7AC2C4BBAB1006B5811 /* СustomHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СustomHash.swift"; sourceTree = "<group>"; };
+		A345C7AE2C4BC439006B5811 /* SetFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFunction.swift; sourceTree = "<group>"; };
+		A345C7B02C4BDB19006B5811 /* DictionaryFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A32A65A02C58291600552F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A345C74A2C4BB4FB006B5811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,9 +147,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A345C7A02C4BB8CC006B5811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32A65A42C58291600552F5B /* PatternMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				A32A65A52C58291600552F5B /* main.swift */,
+				A32A65AA2C5829FD00552F5B /* MovieService.swift */,
+				A32A65AC2C582A1500552F5B /* MovieManager.swift */,
+				A32A65AE2C582A3000552F5B /* Movie.swift */,
+				A32A65B02C582A4800552F5B /* Config.swift */,
+			);
+			path = PatternMovieApp;
+			sourceTree = "<group>";
+		};
 		A345C7442C4BB4FB006B5811 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +176,8 @@
 				A345C7672C4BB56E006B5811 /* Factory */,
 				A345C7722C4BB5B9006B5811 /* ScrollApp */,
 				A345C78C2C4BB709006B5811 /* Calendar */,
+				A345C7A42C4BB8CC006B5811 /* HashCollections */,
+				A32A65A42C58291600552F5B /* PatternMovieApp */,
 				A345C74E2C4BB4FB006B5811 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,6 +189,8 @@
 				A345C7662C4BB56E006B5811 /* Factory */,
 				A345C7712C4BB5B9006B5811 /* ScrollApp.app */,
 				A345C78B2C4BB709006B5811 /* Calendar.app */,
+				A345C7A32C4BB8CC006B5811 /* HashCollections */,
+				A32A65A32C58291600552F5B /* PatternMovieApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,9 +256,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A345C7A42C4BB8CC006B5811 /* HashCollections */ = {
+			isa = PBXGroup;
+			children = (
+				A345C7A52C4BB8CC006B5811 /* main.swift */,
+				A345C7AA2C4BB9C7006B5811 /* StringHash.swift */,
+				A345C7AC2C4BBAB1006B5811 /* СustomHash.swift */,
+				A345C7AE2C4BC439006B5811 /* SetFunction.swift */,
+				A345C7B02C4BDB19006B5811 /* DictionaryFunction.swift */,
+			);
+			path = HashCollections;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A32A65A22C58291600552F5B /* PatternMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32A65A92C58291600552F5B /* Build configuration list for PBXNativeTarget "PatternMovieApp" */;
+			buildPhases = (
+				A32A659F2C58291600552F5B /* Sources */,
+				A32A65A02C58291600552F5B /* Frameworks */,
+				A32A65A12C58291600552F5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatternMovieApp;
+			productName = PatternMovieApp;
+			productReference = A32A65A32C58291600552F5B /* PatternMovieApp */;
+			productType = "com.apple.product-type.tool";
+		};
 		A345C74C2C4BB4FB006B5811 /* Bank */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A345C7542C4BB4FB006B5811 /* Build configuration list for PBXNativeTarget "Bank" */;
@@ -257,6 +356,23 @@
 			productReference = A345C78B2C4BB709006B5811 /* Calendar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A345C7A22C4BB8CC006B5811 /* HashCollections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A345C7A72C4BB8CC006B5811 /* Build configuration list for PBXNativeTarget "HashCollections" */;
+			buildPhases = (
+				A345C79F2C4BB8CC006B5811 /* Sources */,
+				A345C7A02C4BB8CC006B5811 /* Frameworks */,
+				A345C7A12C4BB8CC006B5811 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashCollections;
+			productName = HashCollections;
+			productReference = A345C7A32C4BB8CC006B5811 /* HashCollections */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -267,6 +383,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					A32A65A22C58291600552F5B = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					A345C74C2C4BB4FB006B5811 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -277,6 +396,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					A345C78A2C4BB709006B5811 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A345C7A22C4BB8CC006B5811 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -298,6 +420,8 @@
 				A345C7652C4BB56E006B5811 /* Factory */,
 				A345C7702C4BB5B9006B5811 /* ScrollApp */,
 				A345C78A2C4BB709006B5811 /* Calendar */,
+				A345C7A22C4BB8CC006B5811 /* HashCollections */,
+				A32A65A22C58291600552F5B /* PatternMovieApp */,
 			);
 		};
 /* End PBXProject section */
@@ -324,6 +448,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A32A659F2C58291600552F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32A65AB2C5829FD00552F5B /* MovieService.swift in Sources */,
+				A32A65AD2C582A1500552F5B /* MovieManager.swift in Sources */,
+				A32A65B12C582A4800552F5B /* Config.swift in Sources */,
+				A32A65AF2C582A3000552F5B /* Movie.swift in Sources */,
+				A32A65A62C58291600552F5B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A345C7492C4BB4FB006B5811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,9 +501,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A345C79F2C4BB8CC006B5811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A345C7B12C4BDB19006B5811 /* DictionaryFunction.swift in Sources */,
+				A345C7AB2C4BB9C7006B5811 /* StringHash.swift in Sources */,
+				A345C7AD2C4BBAB1006B5811 /* СustomHash.swift in Sources */,
+				A345C7AF2C4BC439006B5811 /* SetFunction.swift in Sources */,
+				A345C7A62C4BB8CC006B5811 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A32A65A72C58291600552F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR465RHT3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A32A65A82C58291600552F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR465RHT3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A345C7522C4BB4FB006B5811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -651,9 +821,40 @@
 			};
 			name = Release;
 		};
+		A345C7A82C4BB8CC006B5811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR465RHT3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A345C7A92C4BB8CC006B5811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR465RHT3M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A32A65A92C58291600552F5B /* Build configuration list for PBXNativeTarget "PatternMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32A65A72C58291600552F5B /* Debug */,
+				A32A65A82C58291600552F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A345C7482C4BB4FB006B5811 /* Build configuration list for PBXProject "Bank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -695,6 +896,15 @@
 			buildConfigurations = (
 				A345C7972C4BB711006B5811 /* Debug */,
 				A345C7982C4BB711006B5811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A345C7A72C4BB8CC006B5811 /* Build configuration list for PBXNativeTarget "HashCollections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A345C7A82C4BB8CC006B5811 /* Debug */,
+				A345C7A92C4BB8CC006B5811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
