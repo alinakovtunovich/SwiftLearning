@@ -48,6 +48,16 @@
 		A3471D292C6008F500C1CCA5 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3471D282C6008F500C1CCA5 /* TaskManager.swift */; };
 		A3471D2B2C6133A200C1CCA5 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3471D2A2C6133A200C1CCA5 /* Server.swift */; };
 		A3471D2D2C61467700C1CCA5 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3471D2C2C61467700C1CCA5 /* Client.swift */; };
+		A34ABA342C669683009F847A /* WizardsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5932C66666A0032181A /* WizardsAPI.swift */; };
+		A34ABA362C66974F009F847A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A34ABA352C66974F009F847A /* Alamofire */; };
+		A34ABA372C6697A3009F847A /* WizardDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5A32C66666A0032181A /* WizardDto.swift */; };
+		A34ABA382C6697C2009F847A /* WizardElixirDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE59E2C66666A0032181A /* WizardElixirDto.swift */; };
+		A34ABA392C6697D9009F847A /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE59A2C66666A0032181A /* APIs.swift */; };
+		A34ABA3A2C6697EC009F847A /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE58E2C66666A0032181A /* APIHelper.swift */; };
+		A34ABA3B2C66980C009F847A /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE58F2C66666A0032181A /* AlamofireImplementations.swift */; };
+		A34ABA3C2C669812009F847A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5AF2C66666A0032181A /* Models.swift */; };
+		A34ABA3D2C669823009F847A /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5992C66666A0032181A /* JSONEncodableEncoding.swift */; };
+		A34ABA3E2C669828009F847A /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5982C66666A0032181A /* CodableHelper.swift */; };
 		A36BE5082C6654CB0032181A /* AppAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5072C6654CB0032181A /* AppAPIApp.swift */; };
 		A36BE50A2C6654CB0032181A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE5092C6654CB0032181A /* ContentView.swift */; };
 		A36BE50C2C6654CE0032181A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36BE50B2C6654CE0032181A /* Assets.xcassets */; };
@@ -355,6 +365,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34ABA362C66974F009F847A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -817,6 +828,7 @@
 			);
 			name = AppAPI;
 			packageProductDependencies = (
+				A34ABA352C66974F009F847A /* Alamofire */,
 			);
 			productName = AppAPI;
 			productReference = A36BE5052C6654CA0032181A /* AppAPI.app */;
@@ -1223,11 +1235,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30C0F5C2C6688C4004F82CD /* NetworkManager.swift in Sources */,
+				A34ABA3C2C669812009F847A /* Models.swift in Sources */,
+				A34ABA342C669683009F847A /* WizardsAPI.swift in Sources */,
+				A34ABA372C6697A3009F847A /* WizardDto.swift in Sources */,
 				A36BE50A2C6654CB0032181A /* ContentView.swift in Sources */,
 				A3F2456A2C667B3A00984E85 /* WizardListView.swift in Sources */,
 				A3F245682C667B1C00984E85 /* WizardViewModel.swift in Sources */,
+				A34ABA3B2C66980C009F847A /* AlamofireImplementations.swift in Sources */,
 				A3F245662C667AFB00984E85 /* Wizard.swift in Sources */,
 				A36BE5082C6654CB0032181A /* AppAPIApp.swift in Sources */,
+				A34ABA392C6697D9009F847A /* APIs.swift in Sources */,
+				A34ABA3A2C6697EC009F847A /* APIHelper.swift in Sources */,
+				A34ABA3D2C669823009F847A /* JSONEncodableEncoding.swift in Sources */,
+				A34ABA3E2C669828009F847A /* CodableHelper.swift in Sources */,
+				A34ABA382C6697C2009F847A /* WizardElixirDto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1916,6 +1937,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A34ABA352C66974F009F847A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C39CDB2C66330400BD2626 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		A36BE5E32C6678250032181A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A3C39CDB2C66330400BD2626 /* XCRemoteSwiftPackageReference "Alamofire" */;

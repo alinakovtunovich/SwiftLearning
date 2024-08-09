@@ -12,7 +12,7 @@ struct WizardListView: View {
 
     var body: some View {
         NavigationView {
-            List(viewModel.wizards, id: \.id) { wizard in
+            List(viewModel.wizards, id: \._id) { wizard in
                 VStack(alignment: .leading) {
                     HStack {
                         Text(wizard.firstName ?? "")

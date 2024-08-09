@@ -11,9 +11,8 @@ public class NetworkManager {
 
     private init() {}
 
-    public func fetchWizards(completion: @escaping (Result<[Wizard], Error>) -> Void) {
-        let url = URL(string: "https://wizard-world-api.herokuapp.com/Wizards")!
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+    public func fetchWizards(completion: @escaping (Result<[WizardDto], Error>) -> Void) {
+        WizardsAPI.wizardsGet { data, error in
             if let error = error {
                 completion(.failure(error))
                 return
@@ -24,13 +23,8 @@ public class NetworkManager {
                 return
             }
 
-            do {
-                let wizards = try JSONDecoder().decode([Wizard].self, from: data)
-                completion(.success(wizards))
-            } catch {
-                completion(.failure(error))
-            }
+            completion(.success(data))
         }
-        task.resume()
     }
 }
+

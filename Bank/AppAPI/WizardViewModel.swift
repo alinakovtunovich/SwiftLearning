@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class WizardViewModel: ObservableObject {
-    @Published var wizards: [Wizard] = []
+    @Published var wizards: [WizardDto] = []
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -26,3 +26,4 @@ class WizardViewModel: ObservableObject {
         }
     }
 }
+

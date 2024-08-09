@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 public struct WizardDto: Codable {
 
     public var elixirs: [WizardElixirDto]?
